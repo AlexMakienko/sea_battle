@@ -233,11 +233,13 @@ class Game:
             if self.pc.board.count == 7:
                 print("-" * 20)
                 print("Пользователь выиграл!")
+                print(self.pc.board)
                 break
 
             if self.my.board.count == 7:
                 print("-" * 20)
                 print("Компьютер выиграл!")
+                print(self.my.board)
                 break
             num += 1
 
